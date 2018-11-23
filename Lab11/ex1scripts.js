@@ -1,9 +1,9 @@
 var colorPicker = ["red", "green", "blue", "yellow"];
-var wayneArray = new Array(); 
+var otherArray = new Array(); 
 
 function startGame() {
 	var randoNum = Math.floor(Math.random() * 4);
-	wayneArray.unshift(colorPicker[randoNum]);
+	otherArray.unshift(colorPicker[randoNum]);
 	document.getElementById("simonSays").innerHTML = "Simon Says:" + colorPicker[randoNum];
 	setTimeout(changeCol, 500);
 	
@@ -16,7 +16,7 @@ function changeCol() {
 function redButt() {
 	
 	var red = "red";
-	if (red == wayneArray[0]){
+	if (red == otherArray[0]){
 	startGame();
 	}
 	else {
@@ -27,7 +27,7 @@ function redButt() {
 function greenButt() {
 	
 	var green = "green";
-	if (green == wayneArray[0]){
+	if (green == otherArray[0]){
 	startGame();
 	}
 	else {
@@ -38,7 +38,7 @@ function greenButt() {
 function blueButt() {
 	
 	var blue = "blue";
-	if (blue == wayneArray[0]){
+	if (blue == otherArray[0]){
 	startGame();
 	}
 	else {
@@ -49,7 +49,7 @@ function blueButt() {
 function yellowButt() {
 	
 	var yellow = "yellow";
-	if (yellow == wayneArray[0]){
+	if (yellow == otherArray[0]){
 	startGame();
 	}
 	else {
