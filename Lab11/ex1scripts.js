@@ -20,7 +20,7 @@ function redButt() {
 	startGame();
 	}
 	else {
-	document.getElementById("simonSays").innerHTML = "Simon Says: " + wayneArray;
+	document.getElementById("simonSays").innerHTML = "Simon Says: " + otherArray;
 	}
 }
 
@@ -31,7 +31,7 @@ function greenButt() {
 	startGame();
 	}
 	else {
-	document.getElementById("simonSays").innerHTML = "Simon Says: " + wayneArray;
+	document.getElementById("simonSays").innerHTML = "Simon Says: " + otherArray;
 	}
 }
 
@@ -42,7 +42,7 @@ function blueButt() {
 	startGame();
 	}
 	else {
-	document.getElementById("simonSays").innerHTML = "Simon Says: " + wayneArray;
+	document.getElementById("simonSays").innerHTML = "Simon Says: " + otherArray;
 	}
 }
 
@@ -53,7 +53,7 @@ function yellowButt() {
 	startGame();
 	}
 	else {
-	document.getElementById("simonSays").innerHTML = "Simon Says: " + wayneArray;
+	document.getElementById("simonSays").innerHTML = "Simon Says: " + otherArray;
 	}
 }
 
